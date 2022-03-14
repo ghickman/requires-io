@@ -15,7 +15,7 @@ exclude = '''
 
 [tool.coverage.run]
 branch = true
-omit = [".venv/*"]
+omit = [".direnv/*", ".venv/*"]
 
 [tool.coverage.report]
 fail_under = 100
